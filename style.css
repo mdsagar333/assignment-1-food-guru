@@ -8,18 +8,141 @@ body {
   font-family: "Roboto", sans-serif;
 }
 
+p {
+  line-height: 1.5;
+}
+
 h1 {
+  font-size: 50px;
+}
+
+h2 {
   font-size: 35px;
 }
 
 /* Global Style */
-
+.global-padding {
+  padding: 0 50px;
+  margin-bottom: 65px;
+}
 .display-flex {
   display: flex;
+  justify-content: space-around;
 }
 
-.global-padding {
-  padding: 0 30px;
+.orange {
+  color: orange;
+}
+
+.half-width {
+  width: 45%;
 }
 
 /* Hero Section */
+
+.hero-text-wrapper {
+  margin-top: 100px;
+  color: #575757;
+}
+
+.hero-text-wrapper h1 {
+  word-spacing: 1px;
+  font-size: 64px;
+  margin-bottom: 20px;
+}
+
+.hero-img {
+  width: 100%;
+}
+
+.btn {
+  text-decoration: none;
+  text-transform: uppercase;
+  margin-top: 25px;
+  display: inline-block;
+  background-image: linear-gradient(orange, tomato);
+  color: #fff;
+  padding: 16px 24px;
+  border-radius: 25px;
+}
+
+/* About section */
+
+.about-container {
+  padding-top: 40px;
+  background-image: url("/images/about_bg.png");
+  background-size: contain;
+}
+
+.about-img {
+  width: 58%;
+  display: block;
+}
+
+.about-text-wrapper {
+  margin-top: 100px;
+  color: #575757;
+}
+
+.about-text-wrapper h2 {
+  margin-bottom: 25px;
+}
+
+/* Recipie section */
+
+.recipie-text-content-wrapper {
+  text-align: center;
+  margin-bottom: 35px;
+}
+
+.recipie-text-content-wrapper h2 {
+  color: #575757;
+  margin-bottom: 25px;
+}
+
+.recipie-text-content-wrapper p {
+  width: 50%;
+  margin: auto;
+}
+
+.recipie-card {
+  width: 27%;
+  background-color: #fff;
+  box-shadow: 2px 4px 20px rgb(0 0 0 / 30%);
+  padding: 18px;
+  border-radius: 20px;
+}
+.recipie-card img {
+  width: 100%;
+  display: block;
+}
+
+.recipie-card h3 {
+  margin: 25px 0;
+}
+
+/* Counter section */
+.counter-box-container {
+  background-color: #fff;
+  box-shadow: 2px 4px 20px rgb(0 0 0 / 30%);
+  padding: 30px 0;
+  width: 87%;
+  margin: auto;
+  border-radius: 20px;
+}
+
+/* footer sectin */
+footer {
+  margin-top: 80px;
+  background-color: #0b0d17;
+  color: #fff;
+  padding-top: 30px;
+  padding-bottom: 50px;
+  text-align: center;
+  color: #76777c;
+}
+
+footer h2 {
+  /* color: #5b5b5b; */
+  margin-bottom: 15px;
+}
