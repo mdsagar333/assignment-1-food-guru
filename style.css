@@ -1,7 +1,12 @@
+/* Global Style */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+}
+/* For smoth scrolling */
+html {
+  scroll-behavior: smooth;
 }
 
 body {
@@ -20,7 +25,6 @@ h2 {
   font-size: 35px;
 }
 
-/* Global Style */
 .global-padding {
   padding: 0 50px;
   margin-bottom: 65px;
@@ -36,6 +40,31 @@ h2 {
 
 .half-width {
   width: 45%;
+}
+
+/* Header section */
+.main-header {
+  padding: 20px 50px;
+  background-color: tomato;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  font-size: 25px;
+  font-weight: 700;
+  letter-spacing: -3px;
+  word-spacing: 3px;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: #fff;
+  padding: 12px 20px;
+  font-weight: 700;
+  display: inline-block;
 }
 
 /* Hero Section */
@@ -131,7 +160,7 @@ h2 {
   border-radius: 20px;
 }
 
-/* footer sectin */
+/* footer section */
 footer {
   margin-top: 80px;
   background-color: #0b0d17;
@@ -142,7 +171,7 @@ footer {
   color: #76777c;
 }
 
-footer h2 {
-  /* color: #5b5b5b; */
-  margin-bottom: 15px;
+footer p {
+  margin-top: 18px;
+  font-size: 14px;
 }
